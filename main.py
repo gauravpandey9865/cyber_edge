@@ -20,7 +20,7 @@ def register(user: schemas.UserCreate, db: Session = Depends(get_db)):
     db.add(db_user)
     db.commit()
     db.refresh(db_user)
-    return {"message": "User registered successfully"}
+    return {"message": "User registered successfully..."}
 
 @app.post("/login")
 def login(user: schemas.UserCreate, db: Session = Depends(get_db)):
