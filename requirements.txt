@@ -1,0 +1,9 @@
+fastapi
+sqlalchemy
+uvicorn 
+databases 
+psycopg2-binary
+passlib 
+python-jose 
+bcrypt
+pydantic[email]
